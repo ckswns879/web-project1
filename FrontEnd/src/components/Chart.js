@@ -20,7 +20,8 @@ function Chart({ listsafety, listoil }) {
                 "y": a.oil_money * a.daily_distance
             }
         })
-    }]
+    }
+    ]
 
 
     return (

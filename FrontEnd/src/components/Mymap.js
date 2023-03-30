@@ -215,13 +215,11 @@ function Mymap() {
 
     }, [kakaoMap, markerPositions, buspaths, cnt, busmarkers]);
 
-    
     useInterval(() => {
         if (cnt <= gps.length) {
             setCnt(cnt + 2);
         }
-    }
-        , isRunning ? delay : null);
+    }, isRunning ? delay : null);
 
 
 

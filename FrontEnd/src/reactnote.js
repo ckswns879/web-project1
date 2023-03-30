@@ -1,6 +1,7 @@
 "proxy": "http://localhost:8081",
+"proxy": "http://3.37.27.133:8081",
 
-  { 터미널 }
+{ 터미널 }
 npx create - react - app 프로젝트명    리액트 웹 앱 생성
 npm install react - router - dom    3페이지 구성을 위해 설치
 
@@ -84,8 +85,6 @@ for (let [k, v] of Object.entries(mv)) {
       <li>{db[0]?.x_gps}</li>
       <li>{db[0] && db[0].x_gps}</li>
 
-dbname[0]?.filename
-1 == 1 && dbname[0].filename
 //백 프론트연결
 
 백
@@ -107,7 +106,7 @@ setProxy.js 파일을 생성
 오브젝트 타입 읽기
 JSON.stringify("파일명")
 
-
+  
 
 
   * 오답 노트
